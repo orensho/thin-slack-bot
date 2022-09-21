@@ -3,10 +3,11 @@
 [![Release](https://img.shields.io/github/release/orensho/thin-slack-bot/all.svg)](https://github.com/orensho/thin-slack-bot/latest)
 [![PkgGoDev](https://pkg.go.dev/badge/orensho/thin-slack-bot/)](https://github.com/orensho/thin-slack-bot/)
 
+I created this thin Slack bot to demonstrate how easy it is to automate your repetitive actions using a bot
 
 ## Description
 
-A thin Slack app bot using github.com/shomali11/slacker to use 
+A thin Slack bot using github.com/shomali11/slacker to fork from for your custom slack bot.
 
 ## Required environment variables
 
@@ -61,4 +62,10 @@ makefile build
 ## Run
 
 docker run -e SLACK_APP_TOKEN="xapp-1234" -e SLACK_BOT_TOKEN="xoxb-1234" myrepo/thin-slack-bot:0.0.1
+
+## Deployment
+
+Your containerized Slack bot should be deployed on a workload to provide availability
+It is recommended to create a CI pipeline to automate deployment 
+
 
