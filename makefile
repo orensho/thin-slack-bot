@@ -1,6 +1,6 @@
 SLACKBOT_REPO=myrepo
 SLACKBOT_IMAGENAME=thin-slack-bot
-SLACKBOT_VERSION=0.0.1
+SLACKBOT_VERSION=1.0.0
 
 build:
 	go test .
