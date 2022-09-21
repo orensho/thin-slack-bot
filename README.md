@@ -53,7 +53,7 @@ https://api.slack.com/apps/tbd/ on workspace tbd<br />
 App token = xapp-4321<br />
 Bot token = xoxb-4321
 
-## Docker 
+# Docker 
 
 ## Build
 
@@ -63,7 +63,7 @@ makefile build
 
 docker run -e SLACK_APP_TOKEN="xapp-1234" -e SLACK_BOT_TOKEN="xoxb-1234" myrepo/thin-slack-bot:0.0.1
 
-## Deployment
+# Deployment
 
 Your containerized Slack bot should be deployed on a workload to provide availability
 It is recommended to create a CI pipeline to automate deployment 
