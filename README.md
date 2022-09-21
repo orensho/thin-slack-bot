@@ -1,4 +1,4 @@
-# thin-slack-bot
+# thin Slack Bot
 
 [![Release](https://img.shields.io/github/release/orensho/thin-slack-bot/all.svg)](https://github.com/orensho/thin-slack-bot/latest)
 [![PkgGoDev](https://pkg.go.dev/badge/orensho/thin-slack-bot/)](https://github.com/orensho/thin-slack-bot/)
