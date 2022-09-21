@@ -11,20 +11,20 @@ type BotCommand interface {
 
 type BotCmdsFactory struct {
 	botCommands []BotCommand
+	bot         *slacker.Slacker
 }
 
 func NewCmdsFactory(bot *slacker.Slacker) BotCmdsFactory {
 	var botCommands []BotCommand
-
-	// Declare all bot commands here - each command must return a BotCommand interface
+	// Declare all bot commands here
 	botCommands = append(botCommands, NewEchoCommand(bot))
 	botCommands = append(botCommands, NewTimeCommand(bot))
 
-	return BotCmdsFactory{botCommands: botCommands}
+	return BotCmdsFactory{botCommands: botCommands, bot: bot}
 }
 
-func (b *BotCmdsFactory) Create(bot *slacker.Slacker) {
+func (b *BotCmdsFactory) Create() {
 	for _, botCommand := range b.botCommands {
-		bot.Command(botCommand.GetQuestion(), botCommand.GetHandler())
+		b.bot.Command(botCommand.GetQuestion(), botCommand.GetHandler())
 	}
 }

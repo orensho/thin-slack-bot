@@ -40,5 +40,5 @@ func InitBot() *slacker.Slacker {
 
 func loadBotcommands(bot *slacker.Slacker) {
 	botCmdsFactory := cmds.NewCmdsFactory(bot)
-	botCmdsFactory.Create(bot)
+	botCmdsFactory.Create()
 }
