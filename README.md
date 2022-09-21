@@ -37,16 +37,16 @@ A thin Slack app bot using github.com/shomali11/slacker
 13. got to 'Install app' and install the app
 
 ## App
-app-name
-https://api.slack.com/apps/tbd/ on workspace tbd
-App token = xapp-1234
+app-name<br />
+https://api.slack.com/apps/tbd/ on workspace tbd<br />
+App token = xapp-1234<br />
 Bot token = xoxb-1234
 
 ## App debug
-app-name-debug 
-https://api.slack.com/apps/tbd/ on workspace tbd
+app-name-debug<br />
+https://api.slack.com/apps/tbd/ on workspace tbd<br />
 
-App token = xapp-4321
+App token = xapp-4321<br />
 Bot token = xoxb-4321
 
 ## Docker 
