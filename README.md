@@ -45,7 +45,6 @@ Bot token = xoxb-1234
 ## App debug
 app-name-debug<br />
 https://api.slack.com/apps/tbd/ on workspace tbd<br />
-
 App token = xapp-4321<br />
 Bot token = xoxb-4321
 
