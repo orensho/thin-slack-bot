@@ -1,8 +1,12 @@
 # thin-slack-bot
 
+[![Release](https://img.shields.io/github/release/orensho/thin-slack-bot/all.svg)](https://github.com/orensho/thin-slack-bot/latest)
+[![PkgGoDev](https://pkg.go.dev/badge/orensho/thin-slack-bot/)](https://github.com/orensho/thin-slack-bot/)
+
+
 ## Description
 
-A thin Slack app bot using github.com/shomali11/slacker
+A thin Slack app bot using github.com/shomali11/slacker to use 
 
 ## Required environment variables
 
