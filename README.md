@@ -65,7 +65,7 @@ docker run -e SLACK_APP_TOKEN="xapp-1234" -e SLACK_BOT_TOKEN="xoxb-1234" myrepo/
 
 # Deployment
 
-Your containerized Slack bot should be deployed on a workload to provide availability
+Your containerized Slack bot should be deployed on a workload to provide availability<br />
 It is recommended to create a CI pipeline to automate deployment 
 
 
