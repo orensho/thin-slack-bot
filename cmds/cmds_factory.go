@@ -19,7 +19,6 @@ func NewCmdsFactory(bot *slacker.Slacker) BotCmdsFactory {
 	// Declare all bot commands here
 	botCommands = append(botCommands, NewEchoCommand(bot))
 	botCommands = append(botCommands, NewTimeCommand(bot))
-	botCommands = append(botCommands, NewCreateCVECommand(bot))
 
 	return BotCmdsFactory{botCommands: botCommands, bot: bot}
 }
