@@ -61,7 +61,7 @@ makefile build
 
 ## Run
 
-docker run -e SLACK_APP_TOKEN="xapp-1234" -e SLACK_BOT_TOKEN="xoxb-1234" myrepo/thin-slack-bot:0.0.1
+docker run -e SLACK_APP_TOKEN="xapp-1234" -e SLACK_BOT_TOKEN="xoxb-1234" myrepo/thin-slack-bot:1.0.0
 
 # Deployment
 
